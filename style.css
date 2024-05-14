@@ -22,11 +22,28 @@ h1 {
   grid-column: span 3;
 }
 
+#Education {
+  grid-column: span 2;
+}
+
+#Experience {
+  grid-column: span 2;
+}
+
 .flex-col-container {
   display: flex;
   height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: aliceblue;
+}
+
+.flex-subcol-container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+
   background-color: aliceblue;
 }
