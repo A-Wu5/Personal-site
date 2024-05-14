@@ -1,6 +1,7 @@
 .grid-container {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
 }
 
 h1 {
@@ -13,8 +14,13 @@ h1 {
   font-size: larger;
 }
 
+#header {
+  grid-column: span 2;
+}
+
 .flex-col-container {
   display: flex;
+  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
