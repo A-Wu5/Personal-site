@@ -1,0 +1,22 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+h1 {
+  font-size: 96px;
+  padding-bottom: 0;
+  margin-bottom: 10%;
+}
+
+#heading-caption {
+  font-size: larger;
+}
+
+.flex-col-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
