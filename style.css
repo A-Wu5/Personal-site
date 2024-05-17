@@ -10,6 +10,11 @@ h1 {
   margin-bottom: 10%;
 }
 
+.section-container {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 #heading-caption {
   font-size: larger;
 }
@@ -17,6 +22,7 @@ h1 {
 #header {
   /* Span all the columns from col 1 to the end */
   grid-column: 1 / -1;
+  background-color: aliceblue;
 }
 
 #bio {
@@ -25,17 +31,17 @@ h1 {
 
 #Education {
   grid-column: span 2;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 #Experience {
   grid-column: span 2;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 #Skills {
+  grid-column: 1 / -1;
+}
+
+#Projects {
   grid-column: 1 / -1;
 }
 
@@ -49,7 +55,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: aliceblue;
 }
 
 .flex-container {
