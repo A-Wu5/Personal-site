@@ -43,10 +43,12 @@ a {
 
 #Education {
   grid-column: span 2;
+  align-self: start;
 }
 
 #Experience {
   grid-column: span 2;
+  align-self: start;
 }
 
 #Skills {
