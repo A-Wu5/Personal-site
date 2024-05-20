@@ -1,12 +1,24 @@
+/* 
+FONT
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+} */
+
 .grid-container {
   display: grid;
   grid-template-rows: 2fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
 }
-
+body {
+  font-family: "Montserrat", sans-serif;
+}
 h1 {
   font-size: 96px;
+  font-family: "Montserrat", sans-serif;
   padding-bottom: 0;
   margin-bottom: 10%;
 }
