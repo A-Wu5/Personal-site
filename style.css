@@ -148,12 +148,28 @@ a {
 }
 
 @media (max-width: 768px) {
+  .grid-container {
+    grid-template-rows: auto;
+    row-gap: 3rem;
+  }
+  #Education {
+    grid-column: 1/-1;
+  }
+  #Experience {
+    grid-column: 1 / -1;
+  }
+
   .skills-subcontainer {
     grid-template-columns: 1fr; /* Stack columns on smaller screens */
   }
 }
 
+/* Roughly Mobile size */
 @media (max-width: 576px) {
+  .flex-row-container {
+    flex-direction: column-reverse;
+  }
+
   .skills-container {
     grid-template-columns: 1fr;
   }
