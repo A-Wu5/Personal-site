@@ -45,7 +45,7 @@ a {
 #header {
   /* Span all the columns from col 1 to the end */
   grid-column: 1 / -1;
-  background-color: #03aed2;
+  background-color: #68d2e8;
   height: 100%;
 }
 
