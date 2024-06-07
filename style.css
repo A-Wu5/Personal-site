@@ -34,8 +34,8 @@ a {
 }
 
 .section-container {
-  padding-left: 25px;
-  padding-right: 25px;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 #heading-caption {
@@ -98,7 +98,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
 }
 .flex-space-bw {
   display: flex;
@@ -168,9 +168,13 @@ a {
 }
 
 /* Roughly Mobile size */
-@media (max-width: 576px) {
+@media (max-width: 590px) {
   h1 {
     font-size: 60pt;
+  }
+  .section-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   .flex-row-container {
     flex-direction: column-reverse;
