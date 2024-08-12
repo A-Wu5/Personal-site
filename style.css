@@ -134,6 +134,13 @@ a {
   gap: 10px;
 }
 
+.slideshow-item {
+  background-color: #68d2e8;
+  height: 15rem;
+  width: 25rem;
+  border-radius: 10%;
+}
+
 .contact-link {
   display: inline-block;
   border-radius: 35%;
